@@ -1,0 +1,21 @@
+{
+	"name": "webvimark/yii2-migrate",
+	"description": "Yii2 migrate command that scan new migrations in modules",
+	"type": "yii2-extension",
+	"keywords": ["yii2", "migration", "modules"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Vimark",
+			"email": "webvimark@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"webvimark\\migrate\\": ""
+		}
+	}
+}
