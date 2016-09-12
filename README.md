@@ -1,6 +1,6 @@
 # Migrate controller for Yii 2
 
-This extension provides no-more-butthurt components autocomplete generator command for Yii 2.
+Automatically scan for new migrations in all available modules.
 
 ## Installation
 
@@ -37,15 +37,14 @@ To use this extension, simply add the following code in your application configu
 ```
 # Run as usual
 php yii migrate
-
 ```
 
 ### Available options
 
-**configs** - array. Application configuration files with 'modules' section
+*configs* - array. Application configuration files with 'modules' section
 
-**onlyModules** - array. Scan new migrations only in modules listed here
+*onlyModules* - array. Scan for new migrations only in modules listed here
 
-**exceptModules** -array. Do not scan new migrations in modules listed here
+*exceptModules* - array. Do not scan for new migrations in modules listed here
 
-**additionalPaths** -array. You can specify additional paths
+*additionalPaths* - array. You can specify additional paths

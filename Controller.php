@@ -38,13 +38,13 @@ class Controller extends MigrateController
      */
     public $configs = [];
     /**
-     * Scan new migrations only in modules listed here
+     * Scan for new migrations only in modules listed here
      *
      * @var array
      */
     public $onlyModules = [];
     /**
-     * Do not scan new migrations in modules listed here
+     * Do not scan for new migrations in modules listed here
      *
      * @var array
      */
