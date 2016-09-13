@@ -24,13 +24,18 @@ To use this extension, simply add the following code in your application configu
 
 ```php
 'controllerMap' => [
-	'migrate' => [
-		'class' => 'webvimark\migrate\Controller',
-		'configs' => [
-			'config/console.php',
-			'config/web.php',
-		],
-	],
+    'migrate' => [
+        'class' => 'webvimark\migrate\Controller',
+        'configs' => [
+            'config/console.php',
+            'config/web.php',
+        ],
+//        'additionalPaths' => [
+//            'some-path/some-dir', //directory
+//            '@yii/rbac/migrations', // directory with alias
+//            '@yii/web/migrations/m160313_153426_session_init.php', // single file
+//        ],
+    ],
 ],
 ```
 
