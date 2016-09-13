@@ -90,6 +90,8 @@ class Controller extends MigrateController
                 $this->stdout("Yii Migration Tool (based on Yii v{$version})\n\n");
                 return true;
             }
+
+            throw $e;
         }
 
         return false;
